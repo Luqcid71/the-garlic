@@ -8,7 +8,7 @@
 
   const articles = {
     lead: {
-      tag: 'World Affairs',
+      tag: 'EFN',
       headline: 'Global Summit Reaches Historic Climate Agreement After Three Days of Negotiations',
       byline: 'By Margaret Holloway',
       time: '6 hours ago',

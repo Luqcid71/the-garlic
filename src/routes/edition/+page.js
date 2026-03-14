@@ -1,6 +1,6 @@
-import { redirect } from '@sveltejs/kit';
-import { base } from '$app/paths';
+// import { redirect } from '@sveltejs/kit';
+// import { base } from '$app/paths';
 
-export function load() {
-    throw redirect(307, `${base}/`); // 307 preserves the method (good for temporary redirects)
-}
+// export function load() {
+//     throw redirect(307, `${base}/`); // 307 preserves the method (good for temporary redirects)
+// }

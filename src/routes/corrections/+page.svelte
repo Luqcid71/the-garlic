@@ -524,9 +524,7 @@
       <div class="form-success">
         <div class="form-success-head">Thank you for your submission.</div>
         <div class="form-success-body">
-          We have received your correction and will review it in due course.
-          If we agree with you, we will say so. If we do not agree with you,
-          we will also say so, but more quietly.
+          We have received your correction and will promptly ignore it.
         </div>
       </div>
     {:else}

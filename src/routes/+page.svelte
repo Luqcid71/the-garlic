@@ -497,7 +497,7 @@
       <div class="byline">{articles.secondary[0].byline}<span>·</span>{articles.secondary[0].time}</div>
       <p class="body-text">{articles.secondary[0].summary}</p>
       <br>
-      <a href="#" class="read-more">Continue Reading →</a>
+      <a href="{base}/article/placeholder" class="read-more">Continue Reading →</a>
     </div>
 
     <div class="col-divider"></div>

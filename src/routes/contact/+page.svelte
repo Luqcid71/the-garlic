@@ -532,8 +532,8 @@
     <div class="hq-item">
       <div class="hq-label">Headquarters</div>
       <div class="hq-value">
-        14 Bulb Street, Suite 400<br>
-        Rochester, New York 14604<br>
+        1600 Pennsylvania Avenue NW,<br>
+        Washington, DC 20500<br>
         United States
       </div>
     </div>
@@ -541,9 +541,7 @@
     <div class="hq-item">
       <div class="hq-label">General Inquiries</div>
       <div class="hq-value">
-        +1 (585) 204-0001<br>
-        info@thegarlic.com<br>
-        Mon – Fri, 9 am – 6 pm ET
+            
       </div>
     </div>
     <div class="hq-divider"></div>

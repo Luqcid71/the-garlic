@@ -5,7 +5,12 @@ import adapter from '@sveltejs/adapter-static';
 
 const config = {
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      // default options are usually fine
+      pages: 'build',
+      assets: 'build',
+      fallback: null
+    }),
 	paths: {
       base: '/the-garlic',  // must match your repo name exactly
     },

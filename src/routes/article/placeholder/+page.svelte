@@ -468,7 +468,7 @@ The agreement now passes to individual national legislatures for ratification, a
         <div class="rec-item">
           <img src={rec.image} alt={rec.headline} class="rec-image">
           <div class="rec-section">{rec.section}</div>
-          <a href="{base}/{rec.url}" class="rec-headline">{rec.headline}</a>
+          <a href={base}/{rec.url} class="rec-headline">{rec.headline}</a>
           <div class="rec-meta">{rec.byline} · {rec.time}</div>
         </div>
       {/each}

@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
 
   const today = new Date().toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
@@ -448,12 +449,12 @@
 <!-- Top utility bar -->
 <div class="topbar">
   <div class="topbar-nav">
-    <a href="/subscribe">Subscribe</a>
-    <a href="/edition">E-Edition</a>
+    <a href="{base}/subscribe">Subscribe</a>
+    <a href="{base}/edition">E-Edition</a>
   </div>
   <div>{today}</div>
   <div class="topbar-nav">
-    <a href="/about">About</a>
+    <a href="{base}/about">About</a>
   </div>
 </div>
 
@@ -461,7 +462,7 @@
 <header class="nameplate">
   <div class="logo-lockup">
     <!-- SVG Logo Mark: a stylized compass/sun with initials -->
-    <img src="/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;" class="logo-mark">
+    <img src="{base}/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;" class="logo-mark">
 
     <div class="paper-name">The Garlic</div>
   </div>
@@ -476,7 +477,7 @@
 <!-- Section navigation -->
 <nav class="section-nav">
   {#each ['World', 'Politics', 'Economy', 'Technology', 'Science', 'Culture', 'Opinion', 'Sports', 'Subscribe'] as s}
-    <a href="/{s.toLowerCase()}">{s}</a>
+    <a href="{base}/{s.toLowerCase()}">{s}</a>
   {/each}
 </nav>
 
@@ -572,7 +573,7 @@
   <div class="footer-name">The Garlic</div>
   <div class="footer-links">
     {#each ['Home', 'About', 'Subscribe', 'Advertising', 'Contact', 'Privacy', 'Terms', 'Corrections'] as l}
-      <a href="/{l.toLowerCase()}">{l}</a>
+      <a href="{base}/{l.toLowerCase()}">{l}</a>
     {/each}
   </div>
   <div class="footer-copy">© 2026 The Garlic Consuming Company. No rights reserved. Est. 1967.</div>

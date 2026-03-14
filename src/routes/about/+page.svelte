@@ -1,4 +1,6 @@
 <script>
+  import { base } from '$app/paths';
+
   const today = new Date().toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
@@ -456,19 +458,19 @@
 <!-- Top bar -->
 <div class="topbar">
   <div class="topbar-nav">
-    <a href="/">Home</a>
-    <a href="/">E-Edition</a>
+    <a href="{base}/">Home</a>
+    <a href="{base}/edition">E-Edition</a>
   </div>
   <div>{today}</div>
   <div class="topbar-nav">
-    <a href="/subscribe">Subscribe</a>
+    <a href="{base}/subscribe">Subscribe</a>
   </div>
 </div>
 
 <!-- Nameplate -->
 <header class="nameplate">
   <div class="logo-lockup">
-    <img src="/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;">
+    <img src="{base}/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;">
     <div class="paper-name">The Garlic</div>
   </div>
   <div class="paper-tagline">Bias · No Context · Flawed · Est. 1967</div>
@@ -482,7 +484,7 @@
 <!-- Nav -->
 <nav class="section-nav">
   {#each navLinks as link}
-    <a href="/{link.toLowerCase()}">{link}</a>
+    <a href="{base}/{link.toLowerCase()}">{link}</a>
   {/each}
 </nav>
 
@@ -601,7 +603,7 @@
   <div class="footer-name">The Garlic</div>
   <div class="footer-links">
     {#each footerLinks as l}
-      <a href="/{l.toLowerCase()}">{l}</a>
+      <a href="{base}/{l.toLowerCase()}">{l}</a>
     {/each}
   </div>
   <div class="footer-copy">© 2026 The Garlic Consuming Company. No rights reserved. Est. 1967.</div>

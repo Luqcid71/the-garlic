@@ -38,7 +38,7 @@
     ],
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
-      { tag: 'Health', headline: 'WHO Declares End to Mpox Emergency as Global Cases Decline', time: '2 hrs ago' },
+      { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
       { tag: 'Science', headline: 'Mars Rover Discovers Organic Compounds in Ancient Lakebed Sediments', time: '4 hrs ago' },
       { tag: 'Culture', headline: 'Cannes Jury Awards Palme d\'Or to Iranian Director\'s Debut Feature', time: '7 hrs ago' },
     ],

@@ -14,5 +14,5 @@ The Garlic is a satire website that was done for a school project
 `/edition`
 
 TODO
-add articles
-add tags for the articles and make them link properly
+
+Add all 6 of List's articles

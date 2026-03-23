@@ -486,7 +486,7 @@
 
 <!-- Main content -->
 <main class="wrapper">
-  <div class="edition-label">Friday Morning Edition · Breaking News</div>
+  <div class="edition-label">Garlic Bread Edition · Breaking News</div>
   <hr class="front-rule thick">
 
   <!-- Three-column lead -->

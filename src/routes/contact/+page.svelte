@@ -559,7 +559,8 @@
   <!-- Two-column body -->
   <div class="contact-layout">
 
-    <!-- Left: departments -->
+    <!-- 
+    Left: departments 
     <div class="dept-col">
       <div class="col-label">Editorial Departments</div>
 
@@ -586,6 +587,7 @@
     </div>
 
     <div class="col-divider"></div>
+    -->
 
     <!-- Right: contact form -->
     <div class="form-col">

@@ -121,7 +121,7 @@
     },
     {
       q: 'Do you offer student discounts?',
-      a: "Here at the Garlic we believe in equality. Since students commonly get discounts for other services, we figure it is only fair that they pay their fair share. Students are to pay 400% more on top of the standard rate.",
+      a: "Here at The Garlic we believe in equality. Since students commonly get discounts for other services, we figure it is only fair that they pay their fair share. Students are to pay 400% more on top of the standard rate.",
     },
     {
       q: 'How does the annual billing discount work?',
@@ -129,7 +129,7 @@
     },
     {
       q: 'Can I share my subscription?',
-      a: "The Garlic is a buisness that runs on very thick profit margins and we would love to make these margins even larger. So no, account sharing is allowed.",
+      a: "The Garlic is a buisness that runs on very thick profit margins and we would love to make these margins even larger. So no, account sharing is not allowed.",
     },
     {
       q: 'Which Tier is the best value?',

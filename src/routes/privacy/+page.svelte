@@ -34,7 +34,7 @@
       body: `Everything is retained. No, we won't delete it, stop asking.`
     },
     {
-      heading: 'Your Rights',
+      heading: "Your Rights (notice how it's empty)",
       body: ``
     },
     {
@@ -43,11 +43,11 @@
     },
     {
       heading: 'Changes to This Policy',
-      body: `Whenever, we'll let you know (no we won't).`
+      body: `Whenever, we'll let you know (we won't).`
     },
     {
       heading: 'Contact',
-      body: `We're not gonna listen but if you still feel like voicing your incorrect opinion the email is made up but send your complaints to nobodycares@thegarlic.com`
+      body: `We're not gonna listen but if you still feel like voicing your incorrect opinion the email is made up but send your complaint to nobodycares@thegarlic.com or see our`
     },
   ];
 
@@ -428,8 +428,13 @@
           <div class="policy-section-num">Section {i + 1}</div>
           <div class="policy-section-head">{sec.heading}</div>
           <div class="policy-section-body">
+
             {#each sec.body.split('\n\n') as para}
-              <p>{para}</p>
+              <p>
+                {para}              
+                {#if sec.heading == "Contact"}
+                  <a href="{base}/contact">Contact Page.</a>
+                {/if}</p>
             {/each}
           </div>
         </div>

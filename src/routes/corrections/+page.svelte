@@ -516,7 +516,7 @@
   <div class="form-section" id="submit">
     <div class="form-head">Submit a Correction</div>
     <p class="form-deck">
-      Spotted an error? We really don't care. All submissions are ignored by our corrections desk. But if you want to go through the motions, be our guest. Just know that the form doesn't actually submit anywhere, and no one will ever see it.
+      Spotted an error? We really don't care. All submissions are ignored by our corrections desk (which doesn't exist). But if you want to go through the motions, be our guest. Just know that the form doesn't actually submit anywhere, and no one will ever see it.
     
     </p>
 

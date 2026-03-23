@@ -542,16 +542,15 @@
     <div class="hq-item">
       <div class="hq-label">General Inquiries</div>
       <div class="hq-value">
-
+        Feel free to email us at nobodycares@thegarlic.com
       </div>
     </div>
     <div class="hq-divider"></div>
     <div class="hq-item">
-      <div class="hq-label">Breaking Tips Hotline</div>
+      <div class="hq-label">Complaints or corrections</div>
       <div class="hq-value">
-        +1 (800) 555-LEAK<br>
-        tips@thegarlic.com<br>
-        24 hours a day, 7 days a week
+        Here at the garlic we believe in accuracy, but we also believe in not making mistakes.
+        If you think we have made one see our <a href="{base}/corrections">Corrections Page</a> for more information.
       </div>
     </div>
   </div>

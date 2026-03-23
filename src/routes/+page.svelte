@@ -510,7 +510,7 @@
       <div class="byline">{articles.lead.byline}<span>·</span>{articles.lead.time}</div>
       <p class="body-text drop-cap">{articles.lead.summary}</p>
       <br>
-      <a href="#" class="read-more">Read Full Story →</a>
+      <a href="{base}/article/placeholder" class="read-more">Read Full Story →</a>
     </div>
 
     <div class="col-divider"></div>
@@ -523,7 +523,7 @@
       <div class="byline">{articles.secondary[1].byline}<span>·</span>{articles.secondary[1].time}</div>
       <p class="body-text">{articles.secondary[1].summary}</p>
       <br>
-      <a href="#" class="read-more">Continue Reading →</a>
+      <a href="{base}/technology/articles" class="read-more">Continue Reading →</a>
     </div>
   </div>
 

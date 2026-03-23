@@ -30,7 +30,8 @@
         byline: 'By Ben Coffee',
         time: '1 hour and 7 minutes ago',
         summary: 'Whistleblower gives a peek behind the curtains of a board of directors meeting at Meta',
-        image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80'
+        image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80',
+        link: 'article/the-bleak-future-of-ai'
       }
     ],
     briefs: [
@@ -523,7 +524,7 @@
       <div class="byline">{articles.secondary[1].byline}<span>·</span>{articles.secondary[1].time}</div>
       <p class="body-text">{articles.secondary[1].summary}</p>
       <br>
-      <a href="{base}/technology/articles" class="read-more">Continue Reading →</a>
+      <a href="{base}/{articles.secondary[1].link}" class="read-more">Continue Reading →</a>
     </div>
   </div>
 

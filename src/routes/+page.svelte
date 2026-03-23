@@ -22,14 +22,14 @@
         byline: 'By Thomas Aldridge',
         time: '3 hours ago',
         summary: 'Minutes from the latest FOMC meeting reveal growing consensus that monetary tightening may have reached its peak, with core inflation falling to its lowest level in two years.',
-        image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80'
+        image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       },
       {
         tag: 'Technology',
-        headline: 'Silicon Valley\'s Biggest IPO in a Decade Raises Questions About AI Valuations',
-        byline: 'By Priya Nair',
-        time: '5 hours ago',
-        summary: 'The public debut of the AI chip startup valued at $140 billion has reignited debate over whether markets are pricing in speculative futures rather than present fundamentals.',
+        headline: 'The Bleak Future of AI',
+        byline: 'By Ben Coffee',
+        time: '1 hour and 7 minutes ago',
+        summary: 'Whistleblower gives a peek behind the curtains of a board of directors meeting at Meta',
         image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80'
       }
     ],

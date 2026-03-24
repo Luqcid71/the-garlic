@@ -87,13 +87,13 @@
       }
     ],
 
-    marketTicker: [
-      { label: 'GARLIC INDEX', value: '4,201.77', change: '+0.38%', up: true },
-      { label: 'BREAD FUTURES', value: '$3.14 / loaf', change: '−1.02%', up: false },
-      { label: 'OLIVE OIL BRENT', value: '$148.22 / bbl', change: '+2.11%', up: true },
-      { label: 'CREDIBILITY BONDS', value: 'JUNK', change: '−∞', up: false },
-      { label: 'CLOVE/USD', value: '0.0042', change: '+0.07%', up: true },
-    ],
+  marketTicker: [
+    { label: 'INDEX A', value: '1,234.56', change: '+0.50%', up: true },
+    { label: 'COMMODITY B', value: '$12.34 / unit', change: '-1.20%', up: false },
+    { label: 'RESOURCE C', value: '$56.78 / unit', change: '+2.10%', up: true },
+    { label: 'BOND D', value: 'RISKY', change: '-∞', up: false },
+    { label: 'CURRENCY E/USD', value: '0.0123', change: '+0.05%', up: true },
+  ],
 
     business: [
       {

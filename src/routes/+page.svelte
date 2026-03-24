@@ -78,12 +78,12 @@
         link: 'article/65-game-rule'
       },
       {
-        headline: 'How a Single Lobbying Firm Wrote Four States\' Water Rights Laws Word for Word',
-        byline: 'By Priya Nandakumar & Josh Elmore',
+        headline: `Man Who Paid $300 For Tickets Relieved Team Lost`,
+        byline: 'By Josh List',
         time: '11 hours ago',
-        summary: 'A months-long review of legislative drafts, emails obtained through public records requests, and interviews with seventeen former staffers reveals an influence operation hiding in plain sight.',
-        image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=700&q=80',
-        link: 'article/lobbying-water-rights'
+        summary: 'Local fan celebrates costly Jazz collapse as “big win” for tanking hopes, praising team for blowing a 31-point loss to boost draft odds.',
+        image: base + '/images/josh_1.png',
+        link: 'article/man-who-paid-300-for-tickets'
       }
     ],
 

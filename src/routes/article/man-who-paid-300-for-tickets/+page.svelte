@@ -9,25 +9,17 @@
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'World Affairs',
-    headline: 'Global Summit Reaches Historic Climate Agreement After Three Days of Negotiations',
-    subhead: 'World leaders emerge from Geneva with a binding accord and a $500 billion fund, though delegates remain divided on what, precisely, they agreed to.',
-    byline: 'Margaret Holloway',
-    role: 'Senior Correspondent, Geneva',
-    date: 'March 13, 2026',
+    section: 'Sports',
+    headline: 'Man Who Paid $300 For Tickets Relieved Team Lost',
+    subhead: '',
+    byline: 'Josh List',
+    role: 'Editor, The Garlic',
+    date: 'March 23, 2026',
     readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=80',
-    imageCaption: 'Delegates gather outside the Palais des Nations following the conclusion of talks. Several appeared relieved. One did not.',
-    imageCredit: 'Photo: Reuters',
-    body: `World leaders from 47 nations convened in Geneva this week, emerging with a landmark accord that pledges binding emissions reductions and establishes a $500 billion fund for climate adaptation in developing nations. The agreement, reached in the early hours of Thursday morning after a third consecutive night of negotiations, was described by participants as "historic," "significant," and, in one case, "better than nothing, frankly."
-
-The accord commits signatories to reducing carbon emissions by 45 percent relative to 2005 levels by the year 2035. Independent analysts have described this target as ambitious, achievable, and, depending on which analyst you consult, either both or neither of those things. A separate provision establishes an international oversight body, the structure and authority of which will be determined at a future summit, date to be confirmed.
-
-The $500 billion adaptation fund, intended to assist lower-income nations in managing the effects of climate change already underway, was the most contentious element of the negotiations. Wealthier nations agreed to the figure on the condition that disbursement mechanisms remain subject to annual review. Poorer nations agreed to this condition on the understanding that they had little choice. Several delegates were observed eating pastries during this portion of the talks, which observers interpreted variously as a sign of relaxed confidence or acute stress.
-
-Not all nations signed without reservation. Three countries attached formal addenda to their accords, the contents of which have not been released. A fourth country submitted what a spokesperson described as "a note of general enthusiasm," which legal experts say carries no binding weight but is, they allowed, a nice gesture.
-
-The agreement now passes to individual national legislatures for ratification, a process expected to take between six months and several years, depending on which country and how recently there has been an election. The next full summit is scheduled for 2028, in a city that has not yet been selected but will almost certainly have good coffee.`
+    image: base + '/images/josh_1.png',
+    imageCaption: 'The game which the man attended',
+    imageCredit: 'Fanduel Sports Network',
+    body: `Describing the fourth-quarter collapse as "exactly what we needed," local man Jack Stevens, who paid $316 for two tickets to watch the Utah Jazz lose to the Memphis Grizzlies on Friday, told reporters he left the arena feeling genuinely optimistic for the first time all season. "When Walker Kessler went down in the third and then Keyonte just completely fell apart, I thought, okay, we're really cooking now," said Stevens, explaining that the 31-point defeat had meaningfully improved Utah's odds for a talented lottery pick in the draft, the cornerstone of the re-rebuilding, and that the evening had therefore been a success. "I was worried for a second in the second quarter when we went on that run, but the guys really dug deep and found a way to blow it, so hats off to them." Purcell added that he had already purchased tickets to the next three home games, noting that the Grizzlies, Wizards, and Hornets represented what he called "a really winnable stretch to lose."` 
   };
 
   const recommended = [

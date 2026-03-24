@@ -12,12 +12,11 @@
     {
       department: 'Leadership',
       members: [
-        { name: 'John Sullivan', role: 'Publisher', bio: 'Cornelius has led The Garlic since 2011, when he was appointed under circumstances he declines to discuss. He previously served as deputy editor for nine years and, before that, as a man who sent a great many strongly-worded letters to other newspapers.' },
-        { name: 'Ben Coffee', role: 'Publisher', bio: 'Helena manages the day-to-day operations of the newsroom with a calm that colleagues describe as either admirable or deeply suspicious. She joined The Garlic in 2014 from a regional paper that no longer exists, for unrelated reasons.' },
-        { name: 'Josh List', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
-        { name: 'Ryan Blackburn', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
-        { name: 'Craig Keyes', role: 'Field Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
-      ]
+        { name: 'John Sullivan', role: 'Publisher',  },
+        { name: 'Ben Coffee', role: 'Publisher',  },
+        { name: 'Josh List', role: 'Editor',  },
+        { name: 'Ryan Blackburn', role: 'Editor',  },
+        { name: 'Craig Keyes', role: 'Field Editor', }]
     },
     
    
@@ -26,12 +25,12 @@
   const timeline = [
     { year: '1967', event: "The Garlic is founded by John Sullivan, Josh List, Craig Keyes, Ben Coffee, and Ryan Blackburn. Starting in John's basement the first garlic issue sells 500 copies."},
     { year: '1974', event: 'The Garlic reaches 10,000 copies sold.' },
-    { year: '1989', event: 'The Garlic Wins all of the journalism awards, staff celebrates.' },
-    { year: '1998', event: 'The paper launches its first website, its the best, most beautiful website.' },
+    { year: '1989', event: 'The Garlic Wins all of the journalism awards' },
+    { year: '1998', event: 'The paper launches its first website, its the best, biggest, most beautiful website.' },
     { year: '2009', event: 'John Sullivan is born' },
     { year: '2011', event: 'The Garlic grows to be the most truthful, serious newspaper.' },
     { year: '2019', event: 'The website rises in popularity and would soon skyrocket due to COVID-19.' },
-    { year: '2026', event: 'The Garlic is established.' },
+    { year: '2026', event: 'The Garlic is now the biggest newspaper in the world and is highly acclaimed as the most accurate newspaper in the world' },
   ];
 </script>
 
@@ -491,7 +490,7 @@
   <div class="mission-band">
     <div>
       <div class="mission-label">Our Mission</div>
-      <div class="mission-text">"To report the news with the accuracy we can manage and the conviction we cannot always justify."</div>
+      <div class="mission-text">"Our news source will be a big beatiful news source, the most accurate, everybody should say its the most accurate"</div>
     </div>
     <div class="mission-divider"></div>
     <div>
@@ -530,7 +529,7 @@
     <div class="history-section">
       <div class="history-label-col">
         <div class="section-kicker">Our History</div>
-        <div class="section-heading">Nearly Six Decades of Getting It Mostly Right</div>
+        <div class="section-heading">Nearly Six Decades of Getting Everything Right All of the Time</div>
       </div>
       <ul class="timeline">
         {#each timeline as entry}

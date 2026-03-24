@@ -126,9 +126,9 @@
 
     secondOpinion: {
       tag: 'Opinion',
-      headline: 'I Let an Algorithm Plan My Entire Life for Six Months. It Scheduled Me Out of Existence.',
-      byline: 'Randolph T. Marsh',
-      role: 'Staff Correspondent',
+      headline: `You're not hungy its just in your head, get over it`,
+      byline: 'Chairman Mao Zedong',
+      role: 'Chineese Communist Party Founder',
     },
 
     scienceHealth: [
@@ -682,7 +682,7 @@
 <header class="nameplate">
   <div class="logo-lockup">
     <img src="{base}/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;" class="logo-mark">
-    <div class="paper-name">The Garlic - Online Edition</div>
+    <div class="paper-name">The Garlic</div>
   </div>
   <div class="paper-tagline">Bias · No Context · Flawed · Est. 1967</div>
   <div class="nameplate-meta">

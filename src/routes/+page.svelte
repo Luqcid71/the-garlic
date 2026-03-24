@@ -126,9 +126,9 @@
 
     secondOpinion: {
       tag: 'Opinion',
-      headline: 'I Let an Algorithm Plan My Entire Life for Six Months. It Scheduled Me Out of Existence.',
-      byline: 'Randolph T. Marsh',
-      role: 'Staff Correspondent',
+      headline: `You're not hungy its just in your head, get over it`,
+      byline: 'Chairman Mao Zedong',
+      role: 'Chineese Communist Party Founder',
     },
 
     scienceHealth: [

@@ -9,25 +9,25 @@
   const articles = {
     lead: {
       tag: 'World Affairs',
-      headline: 'Global Summit Reaches Historic Climate Agreement After Three Days of Negotiations',
-      byline: 'By Margaret Holloway',
+      headline: 'U.N. Announces All Future Global Conflicts Will Be Settled On Massive Minecraft Server ',
+      byline: 'By Craig Keyes',
       time: '6 hours ago',
-      summary: 'World leaders from 47 nations convened in Geneva this week, emerging with a landmark accord that pledges binding emissions reductions and establishes a $500 billion fund for climate adaptation in developing nations.',
-      image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80',
-      link: "article/placeholder"
+      summary: 'World leaders from all nations convened in Geneva this week, emerging with a landmark accord that pledges eliminating all warring conflicts.',
+      image: 'https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: "article/UN-announces-minecraft-server"
     },
     secondary: [
       {
-        tag: 'Social',
-        headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
-        byline: 'By John Sullivan',
+        tag: 'Government',
+        headline: 'Nation’s Group Chat Officially Declared Strongest Form Of Government ',
+        byline: 'By Craig Keyes',
         time: '3 hours ago',
-        summary: 'Walmart has announced a new offering allowing customers to trade in an arm and a leg for discounts on their groceries.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
-        link: "article/walmart-arm-and-leg"
+        summary: 'The US government has declared a group chat its most powerful body',
+        image: 'https://images.unsplash.com/photo-1508433957232-3107f5fd5995?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        link: "article/nation-government"
       },
       {
-        tag: 'Culture',
+        tag: 'Technology',
         headline: 'The Bleak Future of AI',
         byline: 'By Ben Coffee',
         time: '1 hour and 7 minutes ago',
@@ -62,10 +62,10 @@
         link: "duolingo-coffee"
       },
       {
-        tag: 'Music',
-        headline: 'How a Self-Released Album Became the Sound of the Year',
-        image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80',
-        link: "placeholder"
+        tag: 'Social',
+        headline: 'Man Dies After Reading Misleading Headline!',
+        image: base + "/images/joshfinal.png",
+        link: "misleading-headline"
       }
     ],
 
@@ -86,39 +86,43 @@
         time: '11 hours ago',
         summary: 'Local fan celebrates costly Jazz collapse as “big win” for tanking hopes, praising team for blowing a 31-point loss to boost draft odds.',
         image: base + '/images/josh_1.png',
-        link: 'article/man-who-paid-300-for-tickets'
+        link: 'article/University-tuition-increase'
       }
     ],
 
   marketTicker: [
-    { label: 'INDEX A', value: '1,234.56', change: '+0.50%', up: true },
-    { label: 'COMMODITY B', value: '$12.34 / unit', change: '-1.20%', up: false },
-    { label: 'RESOURCE C', value: '$56.78 / unit', change: '+2.10%', up: true },
-    { label: 'BOND D', value: 'RISKY', change: '-∞', up: false },
-    { label: 'CURRENCY E/USD', value: '0.0123', change: '+0.05%', up: true },
+    { label: 'Trump Coin', value: '$100,234.56', change: '+0.50%', up: true },
+    { label: 'Gasoline', value: '$12.34 / Gal', change: '+400%', up: true },
+    { label: 'Iranian Oil', value: '$10000.78 / barrel', change: '+10000%', up: true },
+    { label: 'DOW JONES', value: '∞', change: '+∞', up: true },
+    { label: 'Bitcoin', value: '$15.0000000000', change: '+(-99.9785%)', up: true }
+    ,
   ],
 
     business: [
       {
-        tag: 'Business',
-        headline: 'Venture Capital Discovers "Peasant Farming" as Next Disruptive Vertical',
-        byline: 'By Carlton Reese',
+        tag: 'Economy',
+        headline: 'Local University raises tuition $10,000 to “fund new student financial aid department”',
+        byline: 'By Ben Coffee',
         time: '2 hours ago',
-        summary: 'Silicon Valley investors are pouring seed money into startups that promise to "reimagine subsistence agriculture" at a $40 billion valuation.',
+        summary: 'A local university has raised its tuition $10,000 at the massive benefit to the students.',
+        link: 'article/University-tuition-increase'
       },
       {
         tag: 'Finance',
-        headline: 'Fed Chair Admits He Has Not Checked His Own Bank Account in Three Years',
-        byline: 'By Dana Whitmore',
+        headline: 'Walmart Offers a New "Arm and a Leg" Promotion ',
+        byline: 'By John Sullivan',
         time: '4 hours ago',
-        summary: '"I find it clarifying," he told reporters at the post-meeting press conference, staring into the middle distance.',
+        summary: 'Walmart has announced a new offering allowing customers to trade in an arm and a leg for discounts on their groceries.',
+        link: 'article/walmart-arm-and-a-leg'
       },
       {
-        tag: 'Markets',
-        headline: 'Analysts Warn That Everything Is Fine, Which Is Historically a Bad Sign',
-        byline: 'By H. Burke Cavendish',
+        tag: 'Economy',
+        headline: 'World’s Billionaires Announce They Will Fix Everything, Just Need One More Trillion Dollars ',
+        byline: 'By Craig Keyes',
         time: '6 hours ago',
-        summary: 'A consensus of seventeen major investment banks released a joint note Monday describing global financial conditions as "totally chill," sending futures sharply lower.',
+        summary: 'Billionaires can solve our problems with a bold new plan',
+        link: 'article/billionaires'
       },
     ],
 
@@ -825,7 +829,7 @@
         <div class="byline">{item.byline}<span>·</span>{item.time}</div>
         <p class="body-text">{item.summary}</p>
         <br>
-        <a href="#" class="read-more">Read →</a>
+        <a href="{base}/{item.link}" class="read-more">Read →</a>
       </div>
     {/each}
   </div>

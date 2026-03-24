@@ -13,3 +13,5 @@ About page
 Terms page
 
 Most of the Subscribe page 
+
+Icon not working on laptops

@@ -12,38 +12,26 @@
     {
       department: 'Leadership',
       members: [
-        { name: 'Cornelius Ashby', role: 'Editor-in-Chief', bio: 'Cornelius has led The Garlic since 2011, when he was appointed under circumstances he declines to discuss. He previously served as deputy editor for nine years and, before that, as a man who sent a great many strongly-worded letters to other newspapers.' },
-        { name: 'Helena Marsh', role: 'Managing Editor', bio: 'Helena manages the day-to-day operations of the newsroom with a calm that colleagues describe as either admirable or deeply suspicious. She joined The Garlic in 2014 from a regional paper that no longer exists, for unrelated reasons.' },
-        { name: 'Bertram Osei', role: 'Publisher', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
+        { name: 'John Sullivan', role: 'Publisher', bio: 'Cornelius has led The Garlic since 2011, when he was appointed under circumstances he declines to discuss. He previously served as deputy editor for nine years and, before that, as a man who sent a great many strongly-worded letters to other newspapers.' },
+        { name: 'Ben Coffee', role: 'Publisher', bio: 'Helena manages the day-to-day operations of the newsroom with a calm that colleagues describe as either admirable or deeply suspicious. She joined The Garlic in 2014 from a regional paper that no longer exists, for unrelated reasons.' },
+        { name: 'Josh List', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
+        { name: 'Ryan Blackburn', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
+        { name: 'Craig Keyes', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
       ]
     },
-    {
-      department: 'Editorial',
-      members: [
-        { name: 'Margaret Holloway', role: 'Senior Correspondent, World Affairs', bio: 'Margaret has reported from 34 countries, most of them willingly. She speaks four languages and reads three of them.' },
-        { name: 'Thomas Aldridge', role: 'Economics Editor', bio: 'Thomas joined the paper in 2009 and has been covering central bank policy ever since. He has not visibly enjoyed any of it, but his work is considered authoritative.' },
-        { name: 'Priya Nair', role: 'Technology Correspondent', bio: 'Priya covers Silicon Valley from our San Francisco bureau. She was named one of the top technology journalists of 2024 by a publication she has asked us not to name.' },
-        { name: 'Eleanor Voss', role: 'Contributing Editor, Opinion', bio: 'Eleanors column runs every other Thursday and generates more correspondence than any other feature in the paper. Not all of it is hostile.' },
-      ]
-    },
-    {
-      department: 'Operations',
-      members: [
-        { name: 'Douglas Fenn', role: 'Head of Design', bio: 'Douglas has designed The Garlics print edition since 2003. He has opinions about typefaces that he will share if asked, and occasionally if not.' },
-        { name: 'Imogen Clarke', role: 'Head of Digital', bio: 'Imogen joined in 2018 to oversee the papers digital transition. She describes the process as "ongoing." We feel this is accurate.' },
-      ]
-    },
+    
+   
   ];
 
   const timeline = [
-    { year: '1967', event: 'The Garlic is founded by Edmund Pryce in a rented office above a dry cleaner in the city centre. First issue sells 340 copies. Pryce considers this a triumph.' },
-    { year: '1974', event: 'Circulation reaches 10,000. The dry cleaner below closes. Pryce has always maintained this was a coincidence.' },
-    { year: '1989', event: 'The Garlic wins its first journalism award. Staff celebrate. The award is later found to have been issued by an organisation Pryce himself founded. The celebration is not rescinded.' },
-    { year: '1998', event: 'The paper launches its first website. It is, by the standards of 1998, quite good.' },
-    { year: '2008', event: 'Edmund Pryce retires. His farewell editorial runs to 6,000 words. The paper prints all of it.' },
-    { year: '2011', event: 'Cornelius Ashby appointed Editor-in-Chief. Circumstances remain undisclosed.' },
-    { year: '2019', event: 'Digital subscriptions exceed print for the first time. The news desk marks the occasion with a cake that said "print is dead" and then felt bad about it.' },
-    { year: '2026', event: 'The Garlic continues. We are as surprised as anyone.' },
+    { year: '1967', event: "The Garlic is founded by John Sullivan, Josh List, Craig Keyes, Ben Coffee, and Ryan Blackburn. Starting in John's basement the first garlic issue sells 500 copies."},
+    { year: '1974', event: 'The Garlic reaches 10,000 copies sold.' },
+    { year: '1989', event: 'The Garlic Wins all of the journalism awards, staff celebrates.' },
+    { year: '1998', event: 'The paper launches its first website, its the best, most beautiful website.' },
+    { year: '2009', event: 'John Sullivan is born' },
+    { year: '2011', event: 'The Garlic grows to be the most truthful, serious newspaper.' },
+    { year: '2019', event: 'The website rises in popularity and would soon skyrocket due to COVID-19.' },
+    { year: '2026', event: 'The Garlic is established.' },
   ];
 </script>
 
@@ -509,9 +497,9 @@
     <div>
       <div class="mission-label">Who We Are</div>
       <div class="mission-body">
-        <p>The Garlic is an independent newspaper founded in 1967 by Edmund Pryce, a man who believed strongly in the public's right to be informed and only slightly less strongly in their ability to handle it.</p>
-        <p>We are owned by no corporation, beholden to no political party, and answerable to no advertiser — though we remain, as always, politely grateful to those who advertise with us and would prefer they continue.</p>
-        <p>Our newsroom employs journalists across four continents, two of whom have won awards. We are proud of all of them equally, but particularly those two.</p>
+        <p>The Garlic is the most accurate newspaper in today's age, founded by John Sullivan in 1967 for 59 years, The Garlic has delivered the truth to the public.</p>
+        <p>The Garlic is an independent newspaper, we aren't owned by any corporation, we don't follow any political party, we just aim to deliver truthful journalism.</p>
+        <p>We employ journalists across two different class periods, our goal is to deliver you a diverse selection of articles that are truthful and accurate.</p>
       </div>
     </div>
   </div>
@@ -584,7 +572,7 @@
     <div class="contact-item">
       <div class="contact-label">General Enquiries</div>
       <div class="contact-value">hello@thegarlic.com</div>
-      <div class="contact-sub">We read everything. We reply to most things.</div>
+      <div class="contact-sub">We read nothing. We reply to nothing, the email is fake</div>
     </div>
     <div class="contact-item">
       <div class="contact-label">Newsroom</div>
@@ -594,7 +582,7 @@
     <div class="contact-item">
       <div class="contact-label">Press & Partnerships</div>
       <div class="contact-value">press@thegarlic.com</div>
-      <div class="contact-sub">For media enquiries and advertising.</div>
+      <div class="contact-sub">Also fake</div>
     </div>
   </div>
 

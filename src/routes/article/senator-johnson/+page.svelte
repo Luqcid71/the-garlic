@@ -5,46 +5,47 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
+  const navLinks = ['World','Politics','Economy','Technology','Science','Culture','Opinion','Sports'];
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Science',
-    headline: 'Man Who Scored Well On Organic Chemistry Exam In 1987 Confirms Your Relationship With Your Mother Is Pathological',
-    byline: 'Josh List',
+    section: 'Government',
+    headline: 'Senator Johnson Forced to Apologize for Calling Classmate “Mean” in Second Grade',
+    byline: 'Josh Lisht',
     role: 'Editor, The Garlic',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: base + "/images/josh_doctor.png",
-    imageCaption: 'Genius Doctor consulting his patient',
+    image: base + "/images/senatorpicture.png",
+    imageCaption: 'Senator Johnson is depicted',
     imageCredit: 'Photo: Stock',
-    body: `Concerned for your well being, Doctor Victor Frank affirmed on Friday that your mother is the issue. He recognized your apprehension, but assured you that he is a professional and he can relieve your alarms at your appointment, which ought to be sooner rather than later and more costly rather than cheaper. Doctor Frank also added that you should not seek counsel from friends, nature, religion, or other sources that he can’t bill. After all, he passed a test a long time ago and not anyone can do that - only those who passed the test can fully appreciate the suffering of those who did not. Furthermore, a therapist is not simply someone who chose to study and pass the test, but someone from a higher plane who surely knows what you really mean when you say you don’t like being talked down to. It’s your twisted relationship with your mother, Doctor Frank reminds you. Finally, Doctor Frank referred you to a colleague who passed a slightly different test, and who would be available to confirm that your father is also the issue, pending insurance authorization.`
+    body: `WASHINGTON—As part of a recent push for openness in government, the Blue Party has eagerly dug up dirt on prominent members of the Green Party. Senator Steve Johnson (G-WI) has been one such victim, as it has recently come to light that 60 years ago, he called his respected peer Michael “Mikey” Mitchell “mean.” Johnson has assured the press that these comments no longer represent him and that he deeply regrets sharing these harsh words, but many remain skeptical. Opponent Georgia Miller (B-WI) has taken to the pulpit to alert voters that Johnson’s aggression is part of a pattern of cruelty also demonstrated by his vote against the Postal Service Renaming Act and his decision to not smile at his father’s funeral. Miller has told Wisconsin that it deserves to know who it elected. Mitchell, now 67 and a retired electrician, added that he has no memory of the incident and wishes everyone well. Miller responded that he was complicit and that “the conspiracy runs deeper than suspected.”
+`
   };
 
   const recommended = [
     {
-        section: 'Economy',
-        headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
-        byline: 'By John Sullivan',
-        time: '3 hours ago',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
-        url: "article/walmart-arm-and-leg"
+      section: 'Economy',
+      headline: 'Federal Reserve Signals Pause on Rate Hikes Amid Cooling Inflation Data',
+      byline: 'Thomas Aldridge',
+      time: '3 hours ago',
+      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80',
+      url: 'article/placeholder'
     },
     {
-      section: 'Culture',
-      headline: 'Student Debt Rebranded as a Lifelong Hobby', 
-      byline: 'Ryan Blackburn',
-      time: '2 hrs ago', 
-      image: 'https://images.unsplash.com/photo-1554672723-60f4d5d5074f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      url: 'article/student-debt-rebrand',
+      section: 'Technology',
+      headline: "Silicon Valley's Biggest IPO in a Decade Raises Questions About AI Valuations",
+      byline: 'Priya Nair',
+      time: '5 hours ago',
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
+      url: 'article/placeholder'
     },
     {
-        section: 'Sports',
-        headline: 'NBA 65-Game Rule Rebranded as “Participation Trophy Requirement”',
-        byline: 'By Ryan Blackburn',
-        time: '9 hours ago',
-        image: base + '/images/blackburn_2.jpg',
-        url: 'article/65-game-rule'
+      section: 'Science',
+      headline: 'Mars Rover Discovers Organic Compounds in Ancient Lakebed Sediments',
+      byline: 'D. Osei',
+      time: '4 hours ago',
+      image: 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400&q=80',
+      url: 'article/placeholder'
     },
   ];
 </script>
@@ -229,7 +230,7 @@
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
+    
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

@@ -39,7 +39,7 @@
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
       { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
-      { tag: 'Science', headline: 'Mars Rover Discovers Organic Compounds in Ancient Lakebed Sediments', time: '4 hrs ago' },
+      { tag: 'Science', headline: 'Genius Doctor Fixes All of Your Problems', time: '4 hrs ago', link: "chem_exam_guy" },
       { tag: 'Culture', headline: 'Cannes Jury Awards Palme d\'Or to Iranian Director\'s Debut Feature', time: '7 hrs ago' },
     ],
     opinion: {

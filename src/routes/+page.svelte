@@ -9,16 +9,16 @@
   const articles = {
     lead: {
       tag: 'World Affairs',
-      headline: 'Global Summit Reaches Historic Climate Agreement After Three Days of Negotiations',
-      byline: 'By Margaret Holloway',
+      headline: 'U.N. Announces All Future Global Conflicts Will Be Settled On Massive Minecraft Server ',
+      byline: 'By Craig Keyes',
       time: '6 hours ago',
-      summary: 'World leaders from 47 nations convened in Geneva this week, emerging with a landmark accord that pledges binding emissions reductions and establishes a $500 billion fund for climate adaptation in developing nations.',
-      image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=900&q=80',
-      link: "article/placeholder"
+      summary: 'World leaders from all nations convened in Geneva this week, emerging with a landmark accord that pledges eliminating all warring conflicts.',
+      image: 'https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: "article/UN-announces-minecraft-server"
     },
     secondary: [
       {
-        tag: 'Social',
+        tag: 'Economy',
         headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
         byline: 'By John Sullivan',
         time: '3 hours ago',
@@ -27,7 +27,7 @@
         link: "article/walmart-arm-and-leg"
       },
       {
-        tag: 'Culture',
+        tag: 'Technology',
         headline: 'The Bleak Future of AI',
         byline: 'By Ben Coffee',
         time: '1 hour and 7 minutes ago',
@@ -62,10 +62,10 @@
         link: "duolingo-coffee"
       },
       {
-        tag: 'Music',
-        headline: 'How a Self-Released Album Became the Sound of the Year',
-        image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80',
-        link: "placeholder"
+        tag: 'Social',
+        headline: 'Man Dies After Reading Misleading Headline!',
+        image: base + "/images/joshfinal.png",
+        link: "misleading-headline"
       }
     ],
 

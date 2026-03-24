@@ -16,7 +16,7 @@
         { name: 'Ben Coffee', role: 'Publisher', bio: 'Helena manages the day-to-day operations of the newsroom with a calm that colleagues describe as either admirable or deeply suspicious. She joined The Garlic in 2014 from a regional paper that no longer exists, for unrelated reasons.' },
         { name: 'Josh List', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
         { name: 'Ryan Blackburn', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
-        { name: 'Craig Keyes', role: 'Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
+        { name: 'Craig Keyes', role: 'Field Editor', bio: 'Bertram oversees the business side of The Garlic, including advertising, subscriptions, and the annual Gala. He has strong opinions about the price of paper and shares them freely.' },
       ]
     },
     

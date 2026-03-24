@@ -5,21 +5,20 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['World','Politics','Economy','Technology','Science','Culture','Opinion','Sports'];
+  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Government',
-    headline: 'Senator Johnson Forced to Apologize for Calling Classmate “Mean” in Second Grade',
-    byline: 'Josh Lisht',
+    section: 'Social',
+    headline: 'Woman Solves Loneliness by Cutting Off Her Friends',
+    byline: 'Josh List',
     role: 'Editor, The Garlic',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: base + "/images/senatorpicture.png",
-    imageCaption: 'Senator Johnson is depicted',
+    image: base + "/images/image.png",
+    imageCaption: 'Angry woman',
     imageCredit: 'Photo: Stock',
-    body: `WASHINGTON—As part of a recent push for openness in government, the Blue Party has eagerly dug up dirt on prominent members of the Green Party. Senator Steve Johnson (G-WI) has been one such victim, as it has recently come to light that 60 years ago, he called his respected peer Michael “Mikey” Mitchell “mean.” Johnson has assured the press that these comments no longer represent him and that he deeply regrets sharing these harsh words, but many remain skeptical. Opponent Georgia Miller (B-WI) has taken to the pulpit to alert voters that Johnson’s aggression is part of a pattern of cruelty also demonstrated by his vote against the Postal Service Renaming Act and his decision to not smile at his father’s funeral. Miller has told Wisconsin that it deserves to know who it elected. Mitchell, now 67 and a retired electrician, added that he has no memory of the incident and wishes everyone well. Miller responded that he was complicit and that “the conspiracy runs deeper than suspected.”
-`
+    body: `DENVER—Long troubled by her lack of human connection, Jeanne Jones is proud to report that she has found the solution. She has come up with a new set of rules for deciding who to keep as a friend. Dubbed the “Generous Guidelines,” they disallow those who do not give weekly gifts to their friends, do not always agree with their friends, do not appear when their friends want them there and do not disappear when their friends want them gone, and do not mold themselves to their friends’ deepest desires which, although poorly communicated, should be easy to understand. Since practicing these rules, Jones has happily told The Garlic that she has since rid herself of everyone leeching off of her good will and of everyone holding her back from the success she deserves. Jones’ former friends would like to wish her good luck in finding friends who will follow these requirements.`
   };
 
   const recommended = [
@@ -230,7 +229,6 @@
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

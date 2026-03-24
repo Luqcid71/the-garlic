@@ -38,9 +38,9 @@
     ],
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
-      { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
+      { tag: 'Culture', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
       { tag: 'Government', headline: 'Senator Johnson Forced to Apologize for Calling Classmate “Mean” in Second Grade', time: '4 hrs ago', link: "senator-johnson" },
-      { tag: 'Culture', headline: 'Cannes Jury Awards Palme d\'Or to Iranian Director\'s Debut Feature', time: '7 hrs ago' },
+      { tag: 'Social', headline: 'Woman Solves Loneliness by Cutting Off Her Friends', time: '7 hrs ago', link: "Lonely-woman" },
     ],
     opinion: {
       tag: 'Opinion',

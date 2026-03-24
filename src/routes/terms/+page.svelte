@@ -11,6 +11,7 @@
   const article = {
     headline: 'Terms & Conditions',
     byline: 'William Shakespeare',
+    subhead: "Not Romeo and Juliet",
     date: '1623',
     body: `
 The Tragedy of Macbeth
@@ -5130,21 +5131,19 @@ MALCOLM
       <span class="byline-name">By {article.byline}</span>
       <span class="sep">·</span>
       <span class="role">{article.role}</span>
-      <span class="sep">·</span>
       <span class="date">{article.date}</span>
-      <span class="sep">·</span>
       <span class="read-time">{article.readTime}</span>
     </div>
   </div>
 
   <!-- Image -->
-  <div class="article-image-wrap">
+  <!-- <div class="article-image-wrap">
     <img src={article.image} alt={article.imageCaption} class="article-image">
     <div class="image-caption-row">
       <span class="image-caption">{article.imageCaption}</span>
       <span class="image-credit">{article.imageCredit}</span>
     </div>
-  </div>
+  </div> -->
 
   <!-- Body -->
   <div class="article-body">

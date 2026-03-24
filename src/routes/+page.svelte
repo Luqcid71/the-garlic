@@ -38,15 +38,15 @@
     ],
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
-      { tag: 'Culture', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
+      { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
       { tag: 'Government', headline: 'Senator Johnson Forced to Apologize for Calling Classmate “Mean” in Second Grade', time: '4 hrs ago', link: "senator-johnson" },
       { tag: 'Social', headline: 'Woman Solves Loneliness by Cutting Off Her Friends', time: '7 hrs ago', link: "Lonely-woman" },
     ],
     opinion: {
-      tag: 'Opinion',
-      headline: 'The Illusion of AI Neutrality and What We Owe Future Generations',
-      byline: 'Eleanor Voss',
-      role: 'Contributing Editor',
+      tag: '',
+      headline: 'The hardest decisions we make are the ones that are difficult.',
+      byline: 'Xi Xingping',
+      role: 'Chineese Communist Party Member',
     },
     arts: [
       {
@@ -56,7 +56,7 @@
         link: "genius-doctor"
       },
       {
-        tag: 'Books',
+        tag: 'Language',
         headline: 'Man Who Has Completed 867-Day Duolingo Streak Unable To Order Coffee In Mexico',
         image: base + '/images/josh_mexico.png',
         link: "duolingo-coffee"
@@ -91,14 +91,12 @@
     ],
 
   marketTicker: [
-    { label: 'Trump Coin', value: '$100,234.56', change: '+0.50%', up: true },
-    { label: 'Gasoline', value: '$12.34 / Gal', change: '+400%', up: true },
-    { label: 'Iranian Oil', value: '$10000.78 / barrel', change: '+10000%', up: true },
-    { label: 'DOW JONES', value: '∞', change: '+∞', up: true },
-    { label: 'Bitcoin', value: '$15.0000000000', change: '+(-99.9785%)', up: true }
-    ,
+    { label: 'Dow Jones ', value: '$0.14', change: '-67,031.52%', up: false },
+    { label: 'S&P 500', value: '$0.02', change: '-132,321.20%', up: false },
+    { label: 'The Garlic Stock', value: '$920,341,671.92', change: '+30.10%', up: true },
+    { label: 'Debt', value: 'ALL TIME HIGH', change: '+999,999%', up: true },
+    { label: 'Satire', value: '$851.67', change: '+3.05%', up: true },
   ],
-
     business: [
       {
         tag: 'Economy',
@@ -114,7 +112,7 @@
         byline: 'By John Sullivan',
         time: '4 hours ago',
         summary: 'Walmart has announced a new offering allowing customers to trade in an arm and a leg for discounts on their groceries.',
-        link: 'article/walmart-arm-and-a-leg'
+        link: 'article/walmart-arm-and-leg'
       },
       {
         tag: 'Economy',
@@ -758,7 +756,7 @@
 
   <!-- Opinion band -->
   <div class="opinion-band">
-    <div class="opinion-label">Opinion</div>
+    <div class="opinion-label">Truth</div>
     <div>
       <div class="section-tag" style="color:#c8956c;">{articles.opinion.tag}</div>
       <div class="opinion-head">"{articles.opinion.headline}"</div>

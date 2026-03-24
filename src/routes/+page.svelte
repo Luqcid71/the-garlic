@@ -100,11 +100,11 @@
 
     business: [
       {
-        tag: 'Business',
-        headline: 'Venture Capital Discovers "Peasant Farming" as Next Disruptive Vertical',
-        byline: 'By Carlton Reese',
+        tag: 'Economy',
+        headline: 'Local University raises tuition $10,000 to “fund new student financial aid department”',
+        byline: 'By Ben Coffee',
         time: '2 hours ago',
-        summary: 'Silicon Valley investors are pouring seed money into startups that promise to "reimagine subsistence agriculture" at a $40 billion valuation.',
+        summary: 'A local university has raised its tuition $10,000 at the massive benefit to the students.',
       },
       {
         tag: 'Finance',

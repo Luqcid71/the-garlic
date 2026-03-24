@@ -9,19 +9,17 @@
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Science',
-    headline: 'Genius Doctor Fixes All of Your Problems',
-    subhead: 'Man Who Scored Well On Organic Chemistry Exam In 1987 Confirms Your Relationship With Your Mother Is Pathological',
+    section: 'Language',
+    headline: 'Man Who Has Completed 867-Day Duolingo Streak Unable To Order Coffee In Mexico',
+    subhead: '',
     byline: 'Josh List',
-    role: 'Editor, The Garlic',
+    role: 'Editor, The Garlic; and Mexican professional',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: base + "/images/josh_doctor.png",
-
-    imageCaption: 'Genius Doctor',
+    image: base + '/images/josh_mexico.png',
+    imageCaption: 'Man attempting to order coffee in Mexico in Mexican',
     imageCredit: 'Photo: Stock',
-    body: `NEW YORK—Concerned for your well being, Doctor Victor Frank affirmed on Friday that your mother is the issue. He recognized your apprehension, but assured you that he is a professional and he can relieve your alarms at your appointment, which ought to be sooner rather than later and more costly rather than cheaper. Doctor Frank also added that you should not seek counsel from friends, nature, religion, or other sources that he can’t bill. After all, he passed a test a long time ago and not anyone can do that - only those who passed the test can fully appreciate the suffering of those who did not. Furthermore, a therapist is not simply someone who chose to study and pass the test, but someone from a higher plane who surely knows what you really mean when you say you don’t like being talked down to. It’s your twisted relationship with your mother, Doctor Frank reminds you. Finally, Doctor Frank referred you to a colleague who passed a slightly different test, and who would be available to confirm that your father is also the issue, pending insurance authorization.
-`
+    body: `Tourist George Adams, 34, has struggled to order a coffee while visiting Mexico City. “Yeah, I’ve got a Duolingo streak of 867 days, but it’s harder when there’s no pictures with the words!” Adams told The Garlic. “I always beat my friends at Duolingo because I do a lot of lessons, but there’s no ad for a second chance with that nice Hispanic man. All it took was confusing ‘apple’ and ‘train’ for him to clock me as a tourist.” Adams would like to add that he is making great progress and before long, he’ll speak Spanish as well as an 867-day old Mexican child. Really, he’s almost there, it’s just that he forgets it when he closes the app. Miguel Fernandez, 22, the barista, recounts Adams reaching for his phone and practicing each word before approaching the counter and producing them in a piecemeal order. After six minutes, the parties agreed to point at the menu. Fernandez says that he has seen this before and he can appreciate Adams’ tremendous progress towards the Spanish 101 level.`
   };
 
   const recommended = [
@@ -232,7 +230,6 @@
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

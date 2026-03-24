@@ -27,7 +27,7 @@
         link: "article/walmart-arm-and-leg"
       },
       {
-        tag: 'Technology',
+        tag: 'Culture',
         headline: 'The Bleak Future of AI',
         byline: 'By Ben Coffee',
         time: '1 hour and 7 minutes ago',
@@ -39,7 +39,7 @@
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
       { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
-      { tag: 'Science', headline: 'Genius Doctor Fixes All of Your Problems', time: '4 hrs ago', link: "chem_exam_guy" },
+      { tag: 'Science', headline: 'Placeholder', time: '4 hrs ago', link: "placeholder" },
       { tag: 'Culture', headline: 'Cannes Jury Awards Palme d\'Or to Iranian Director\'s Debut Feature', time: '7 hrs ago' },
     ],
     opinion: {
@@ -50,14 +50,16 @@
     },
     arts: [
       {
-        tag: 'Arts & Culture',
-        headline: 'A Museum Reopens, Transformed by a Vision of Radical Inclusion',
-        image: 'https://images.unsplash.com/photo-1578926375605-eaf7559b1458?w=400&q=80'
+        tag: 'Science',
+        headline: 'Genius Doctor Fixes All of Your Problems',
+        image: base + '/images/josh_doctor.png',
+        link: "genius-doctor"
       },
       {
         tag: 'Books',
-        headline: 'The Novel That Turned a Quiet Season Into a Literary Event',
-        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&q=80'
+        headline: 'Man Who Has Completed 867-Day Duolingo Streak Unable To Order Coffee In Mexico',
+        image: base + '/images/josh_mexico.png',
+        link: "duolingo-coffee"
       },
       {
         tag: 'Music',
@@ -770,7 +772,7 @@
         <img src={item.image} alt="" class="arts-img">
         <div class="section-tag">{item.tag}</div>
         <h2 class="secondary-head" style="font-size:18px;">{item.headline}</h2>
-        <a href="#" class="read-more">Read →</a>
+        <a href={base + "/article/" + item.link} class="read-more">Read →</a>
       </div>
     {/each}
   </div>
@@ -840,8 +842,9 @@
     </div>
   </div>
 
-  <!-- ── SCIENCE & HEALTH ── -->
-  <div class="section-heading-band">
+  <!-- ── SCIENCE & HEALTH ── --> 
+  <!-- Commenting this out because we probably dont need it 
+   <div class="section-heading-band">
     <h2>Science, Health & Environment</h2>
     <div class="rule-line"></div>
   </div>
@@ -856,7 +859,7 @@
         <a href="#" class="read-more">Read →</a>
       </div>
     {/each}
-  </div>
+  </div> -->
 
 </main>
 

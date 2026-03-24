@@ -16,7 +16,6 @@
     date: 'March 23, 2026',
     readTime: '4 min read',
     image: base + "/images/josh_doctor.png",
-
     imageCaption: 'Genius Doctor',
     imageCredit: 'Photo: Stock',
     body: `NEW YORK—Concerned for your well being, Doctor Victor Frank affirmed on Friday that your mother is the issue. He recognized your apprehension, but assured you that he is a professional and he can relieve your alarms at your appointment, which ought to be sooner rather than later and more costly rather than cheaper. Doctor Frank also added that you should not seek counsel from friends, nature, religion, or other sources that he can’t bill. After all, he passed a test a long time ago and not anyone can do that - only those who passed the test can fully appreciate the suffering of those who did not. Furthermore, a therapist is not simply someone who chose to study and pass the test, but someone from a higher plane who surely knows what you really mean when you say you don’t like being talked down to. It’s your twisted relationship with your mother, Doctor Frank reminds you. Finally, Doctor Frank referred you to a colleague who passed a slightly different test, and who would be available to confirm that your father is also the issue, pending insurance authorization.

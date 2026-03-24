@@ -16,5 +16,7 @@ The Garlic is a satire website that was done for a school project
 
 TODO
 
-Add all 6 of List's articles
+Craig's 3 articles
+Josh's last 3 articles
 About page
+Terms page

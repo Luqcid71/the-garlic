@@ -5,47 +5,46 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
+  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Social',
-    headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
-    subhead: 'Walmart has announced a new offering allowing customers to trade in an arm and a leg for discounts on their groceries.',
-    byline: 'John Sullivan',
+    section: 'Science',
+    headline: 'Man Who Scored Well On Organic Chemistry Exam In 1987 Confirms Your Relationship With Your Mother Is Pathological',
+    byline: 'Josh List',
     role: 'Editor, The Garlic',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
-    imageCaption: 'Walmart',
-    imageCredit: 'Photo: Walmart storefront from Wikimedia Commons',
-    body: `Amidst the rising grocery prices Walmart, the largest supermarket retailer in the US, is offering a new promotion that aims to make groceries more affordable for the average person. In this promotion customers can trade an arm and a leg for $200 off their groceries. This promotion is extremely generous from Walmart as this makes groceries affordable for the average person again, because everyone has arms and legs. In fact most people have two arms and two legs meaning they could get up to $400 off their groceries. Walmart executives say they plan to sell the arms and legs obtained from the promotion to OpenAI who plans to use them for new humanoid-robot technology. Sam Altman says this new technology will have no adverse effects on the existence of mankind. `
+    image: base + "/images/josh_doctor.png",
+    imageCaption: 'Genius Doctor consulting his patient',
+    imageCredit: 'Photo: Stock',
+    body: `Concerned for your well being, Doctor Victor Frank affirmed on Friday that your mother is the issue. He recognized your apprehension, but assured you that he is a professional and he can relieve your alarms at your appointment, which ought to be sooner rather than later and more costly rather than cheaper. Doctor Frank also added that you should not seek counsel from friends, nature, religion, or other sources that he can’t bill. After all, he passed a test a long time ago and not anyone can do that - only those who passed the test can fully appreciate the suffering of those who did not. Furthermore, a therapist is not simply someone who chose to study and pass the test, but someone from a higher plane who surely knows what you really mean when you say you don’t like being talked down to. It’s your twisted relationship with your mother, Doctor Frank reminds you. Finally, Doctor Frank referred you to a colleague who passed a slightly different test, and who would be available to confirm that your father is also the issue, pending insurance authorization.`
   };
 
   const recommended = [
     {
-      section: 'Economy',
-      headline: 'Federal Reserve Signals Pause on Rate Hikes Amid Cooling Inflation Data',
-      byline: 'Thomas Aldridge',
-      time: '3 hours ago',
-      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80',
-      url: 'article/placeholder'
+        section: 'Economy',
+        headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
+        byline: 'By John Sullivan',
+        time: '3 hours ago',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
+        url: "article/walmart-arm-and-leg"
     },
     {
-      section: 'Technology',
-      headline: "How to Spot AI Generated Media",
-      byline: 'John Sullivan',
-      time: '5 hours ago',
-      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
-      url: 'article/how-to-spot-ai'
+      section: 'Culture',
+      headline: 'Student Debt Rebranded as a Lifelong Hobby', 
+      byline: 'Ryan Blackburn',
+      time: '2 hrs ago', 
+      image: 'https://images.unsplash.com/photo-1554672723-60f4d5d5074f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      url: 'article/student-debt-rebrand',
     },
     {
-      section: 'Science',
-      headline: 'Mars Rover Discovers Organic Compounds in Ancient Lakebed Sediments',
-      byline: 'D. Osei',
-      time: '4 hours ago',
-      image: 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400&q=80',
-      url: 'article/placeholder'
+        section: 'Sports',
+        headline: 'NBA 65-Game Rule Rebranded as “Participation Trophy Requirement”',
+        byline: 'By Ryan Blackburn',
+        time: '9 hours ago',
+        image: base + '/images/blackburn_2.jpg',
+        url: 'article/65-game-rule'
     },
   ];
 </script>

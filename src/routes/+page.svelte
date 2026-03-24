@@ -27,7 +27,7 @@
         link: "article/walmart-arm-and-leg"
       },
       {
-        tag: 'Technology',
+        tag: 'Culture',
         headline: 'The Bleak Future of AI',
         byline: 'By Ben Coffee',
         time: '1 hour and 7 minutes ago',
@@ -39,7 +39,7 @@
     briefs: [
       { tag: 'Technology', headline: 'How to Spot AI Generated Media', time: '5 hr ago', link: "how-to-spot-ai" },
       { tag: 'Social', headline: 'Student Debt Rebranded as a Lifelong Hobby', time: '2 hrs ago', link: "student-debt-rebrand" },
-      { tag: 'Government', headline: 'Senator Johnson Forced to Apologize for Calling Classmate “Mean” in Second Grade', link: "senator-johnson" },
+      { tag: 'Science', headline: 'Placeholder', time: '4 hrs ago', link: "placeholder" },
       { tag: 'Culture', headline: 'Cannes Jury Awards Palme d\'Or to Iranian Director\'s Debut Feature', time: '7 hrs ago' },
     ],
     opinion: {
@@ -50,14 +50,16 @@
     },
     arts: [
       {
-        tag: 'Arts & Culture',
-        headline: 'A Museum Reopens, Transformed by a Vision of Radical Inclusion',
-        image: 'https://images.unsplash.com/photo-1578926375605-eaf7559b1458?w=400&q=80'
+        tag: 'Science',
+        headline: 'Genius Doctor Fixes All of Your Problems',
+        image: base + '/images/josh_doctor.png',
+        link: "genius-doctor"
       },
       {
         tag: 'Books',
-        headline: 'The Novel That Turned a Quiet Season Into a Literary Event',
-        image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&q=80'
+        headline: 'Man Who Has Completed 867-Day Duolingo Streak Unable To Order Coffee In Mexico',
+        image: base + '/images/josh_mexico.png',
+        link: "duolingo-coffee"
       },
       {
         tag: 'Music',
@@ -78,22 +80,22 @@
         link: 'article/65-game-rule'
       },
       {
-        headline: 'How a Single Lobbying Firm Wrote Four States\' Water Rights Laws Word for Word',
-        byline: 'By Priya Nandakumar & Josh Elmore',
+        headline: `Man Who Paid $300 For Tickets Relieved Team Lost`,
+        byline: 'By Josh List',
         time: '11 hours ago',
-        summary: 'A months-long review of legislative drafts, emails obtained through public records requests, and interviews with seventeen former staffers reveals an influence operation hiding in plain sight.',
-        image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=700&q=80',
-        link: 'article/lobbying-water-rights'
+        summary: 'Local fan celebrates costly Jazz collapse as “big win” for tanking hopes, praising team for blowing a 31-point loss to boost draft odds.',
+        image: base + '/images/josh_1.png',
+        link: 'article/man-who-paid-300-for-tickets'
       }
     ],
 
-    marketTicker: [
-      { label: 'GARLIC INDEX', value: '4,201.77', change: '+0.38%', up: true },
-      { label: 'BREAD FUTURES', value: '$3.14 / loaf', change: '−1.02%', up: false },
-      { label: 'OLIVE OIL BRENT', value: '$148.22 / bbl', change: '+2.11%', up: true },
-      { label: 'CREDIBILITY BONDS', value: 'JUNK', change: '−∞', up: false },
-      { label: 'CLOVE/USD', value: '0.0042', change: '+0.07%', up: true },
-    ],
+  marketTicker: [
+    { label: 'INDEX A', value: '1,234.56', change: '+0.50%', up: true },
+    { label: 'COMMODITY B', value: '$12.34 / unit', change: '-1.20%', up: false },
+    { label: 'RESOURCE C', value: '$56.78 / unit', change: '+2.10%', up: true },
+    { label: 'BOND D', value: 'RISKY', change: '-∞', up: false },
+    { label: 'CURRENCY E/USD', value: '0.0123', change: '+0.05%', up: true },
+  ],
 
     business: [
       {
@@ -770,7 +772,7 @@
         <img src={item.image} alt="" class="arts-img">
         <div class="section-tag">{item.tag}</div>
         <h2 class="secondary-head" style="font-size:18px;">{item.headline}</h2>
-        <a href="#" class="read-more">Read →</a>
+        <a href={base + "/article/" + item.link} class="read-more">Read →</a>
       </div>
     {/each}
   </div>
@@ -840,8 +842,9 @@
     </div>
   </div>
 
-  <!-- ── SCIENCE & HEALTH ── -->
-  <div class="section-heading-band">
+  <!-- ── SCIENCE & HEALTH ── --> 
+  <!-- Commenting this out because we probably dont need it 
+   <div class="section-heading-band">
     <h2>Science, Health & Environment</h2>
     <div class="rule-line"></div>
   </div>
@@ -856,7 +859,7 @@
         <a href="#" class="read-more">Read →</a>
       </div>
     {/each}
-  </div>
+  </div> -->
 
 </main>
 

@@ -5,7 +5,7 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['World','Politics','Economy','Technology','Science','Culture','Opinion','Sports'];
+  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
@@ -238,7 +238,6 @@ The agreement now passes to individual national legislatures for ratification, a
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

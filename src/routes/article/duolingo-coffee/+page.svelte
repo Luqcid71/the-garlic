@@ -5,21 +5,21 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
+  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Social',
-    headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
-    subhead: 'Walmart has announced a new offering allowing customers to trade in an arm and a leg for discounts on their groceries.',
-    byline: 'John Sullivan',
-    role: 'Editor, The Garlic',
+    section: 'Language',
+    headline: 'Man Who Has Completed 867-Day Duolingo Streak Unable To Order Coffee In Mexico',
+    subhead: '',
+    byline: 'Josh List',
+    role: 'Editor, The Garlic; and Mexican professional',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
-    imageCaption: 'Walmart',
-    imageCredit: 'Photo: Walmart storefront from Wikimedia Commons',
-    body: `Amidst the rising grocery prices Walmart, the largest supermarket retailer in the US, is offering a new promotion that aims to make groceries more affordable for the average person. In this promotion customers can trade an arm and a leg for $200 off their groceries. This promotion is extremely generous from Walmart as this makes groceries affordable for the average person again, because everyone has arms and legs. In fact most people have two arms and two legs meaning they could get up to $400 off their groceries. Walmart executives say they plan to sell the arms and legs obtained from the promotion to OpenAI who plans to use them for new humanoid-robot technology. Sam Altman says this new technology will have no adverse effects on the existence of mankind. `
+    image: base + '/images/josh_mexico.png',
+    imageCaption: 'Man attempting to order coffee in Mexico in Mexican',
+    imageCredit: 'Photo: Stock',
+    body: `Tourist George Adams, 34, has struggled to order a coffee while visiting Mexico City. “Yeah, I’ve got a Duolingo streak of 867 days, but it’s harder when there’s no pictures with the words!” Adams told The Garlic. “I always beat my friends at Duolingo because I do a lot of lessons, but there’s no ad for a second chance with that nice Hispanic man. All it took was confusing ‘apple’ and ‘train’ for him to clock me as a tourist.” Adams would like to add that he is making great progress and before long, he’ll speak Spanish as well as an 867-day old Mexican child. Really, he’s almost there, it’s just that he forgets it when he closes the app. Miguel Fernandez, 22, the barista, recounts Adams reaching for his phone and practicing each word before approaching the counter and producing them in a piecemeal order. After six minutes, the parties agreed to point at the menu. Fernandez says that he has seen this before and he can appreciate Adams’ tremendous progress towards the Spanish 101 level.`
   };
 
   const recommended = [
@@ -33,11 +33,11 @@
     },
     {
       section: 'Technology',
-      headline: "How to Spot AI Generated Media",
-      byline: 'John Sullivan',
+      headline: "Silicon Valley's Biggest IPO in a Decade Raises Questions About AI Valuations",
+      byline: 'Priya Nair',
       time: '5 hours ago',
       image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
-      url: 'article/how-to-spot-ai'
+      url: 'article/placeholder'
     },
     {
       section: 'Science',
@@ -230,7 +230,6 @@
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

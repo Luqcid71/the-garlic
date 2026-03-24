@@ -5,47 +5,47 @@
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
-  const navLinks = ['World','Politics','Economy','Technology','Science','Culture','Opinion','Sports'];
+  const navLinks = ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections']
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'Science',
-    headline: 'Man Who Scored Well On Organic Chemistry Exam In 1987 Confirms Your Relationship With Your Mother Is Pathological',
+    section: 'Sports',
+    headline: 'Man Who Paid $300 For Tickets Relieved Team Lost',
+    subhead: '',
     byline: 'Josh List',
     role: 'Editor, The Garlic',
     date: 'March 23, 2026',
     readTime: '4 min read',
-    image: base + "/images/josh_doctor.png",
-    imageCaption: 'Genius Doctor',
-    imageCredit: 'Photo: Stock',
-    body: `NEW YORK—Concerned for your well being, Doctor Victor Frank affirmed on Friday that your mother is the issue. He recognized your apprehension, but assured you that he is a professional and he can relieve your alarms at your appointment, which ought to be sooner rather than later and more costly rather than cheaper. Doctor Frank also added that you should not seek counsel from friends, nature, religion, or other sources that he can’t bill. After all, he passed a test a long time ago and not anyone can do that - only those who passed the test can fully appreciate the suffering of those who did not. Furthermore, a therapist is not simply someone who chose to study and pass the test, but someone from a higher plane who surely knows what you really mean when you say you don’t like being talked down to. It’s your twisted relationship with your mother, Doctor Frank reminds you. Finally, Doctor Frank referred you to a colleague who passed a slightly different test, and who would be available to confirm that your father is also the issue, pending insurance authorization.
-`
+    image: base + '/images/josh_1.png',
+    imageCaption: 'The game which the man attended',
+    imageCredit: 'Fanduel Sports Network',
+    body: `Describing the fourth-quarter collapse as "exactly what we needed," local man Jack Stevens, who paid $316 for two tickets to watch the Utah Jazz lose to the Memphis Grizzlies on Friday, told reporters he left the arena feeling genuinely optimistic for the first time all season. "When Walker Kessler went down in the third and then Keyonte just completely fell apart, I thought, okay, we're really cooking now," said Stevens, explaining that the 31-point defeat had meaningfully improved Utah's odds for a talented lottery pick in the draft, the cornerstone of the re-rebuilding, and that the evening had therefore been a success. "I was worried for a second in the second quarter when we went on that run, but the guys really dug deep and found a way to blow it, so hats off to them." Purcell added that he had already purchased tickets to the next three home games, noting that the Grizzlies, Wizards, and Hornets represented what he called "a really winnable stretch to lose."` 
   };
 
   const recommended = [
     {
-        section: 'Economy',
-        headline: 'Walmart Offers a New "Arm and a Leg" Promotion',
-        byline: 'By John Sullivan',
-        time: '3 hours ago',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
-        url: "article/walmart-arm-and-leg"
+      section: 'Economy',
+      headline: 'Federal Reserve Signals Pause on Rate Hikes Amid Cooling Inflation Data',
+      byline: 'Thomas Aldridge',
+      time: '3 hours ago',
+      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&q=80',
+      url: 'article/placeholder'
     },
     {
-      section: 'Culture',
-      headline: 'Student Debt Rebranded as a Lifelong Hobby', 
-      byline: 'Ryan Blackburn',
-      time: '2 hrs ago', 
-      image: 'https://images.unsplash.com/photo-1554672723-60f4d5d5074f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      url: 'article/student-debt-rebrand',
+      section: 'Technology',
+      headline: "Silicon Valley's Biggest IPO in a Decade Raises Questions About AI Valuations",
+      byline: 'Priya Nair',
+      time: '5 hours ago',
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80',
+      url: 'article/placeholder'
     },
     {
-        section: 'Sports',
-        headline: 'NBA 65-Game Rule Rebranded as “Participation Trophy Requirement”',
-        byline: 'By Ryan Blackburn',
-        time: '9 hours ago',
-        image: base + '/images/blackburn_2.jpg',
-        url: 'article/65-game-rule'
+      section: 'Science',
+      headline: 'Mars Rover Discovers Organic Compounds in Ancient Lakebed Sediments',
+      byline: 'D. Osei',
+      time: '4 hours ago',
+      image: 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400&q=80',
+      url: 'article/placeholder'
     },
   ];
 </script>
@@ -230,7 +230,6 @@
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
     filter: grayscale(8%);

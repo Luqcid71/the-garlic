@@ -15,7 +15,7 @@
     byline: 'John Sullivan',
     role: 'Editor, The Garlic',
     date: 'March 23, 2026',
-    readTime: '2 min read',
+    readTime: '4 min read',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Walmart_Modesto%2C_California.jpg/960px-Walmart_Modesto%2C_California.jpg',
     imageCaption: 'Walmart',
     imageCredit: 'Photo: Walmart storefront from Wikimedia Commons',

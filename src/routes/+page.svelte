@@ -64,7 +64,98 @@
         headline: 'How a Self-Released Album Became the Sound of the Year',
         image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&q=80'
       }
-    ]
+    ],
+
+    // ── NEW CONTENT ──
+
+    indepth: [ // AKA SPORTS
+      {
+        headline: 'NBA 65-Game Rule Rebranded as “Participation Trophy Requirement”',
+        byline: 'By Ryan Blackburn',
+        time: '9 hours ago',
+        summary: 'Downtown vacancy rates in twelve major cities have now exceeded levels unseen since the savings-and-loan crisis of the early nineties. What happens to a city when its center hollows out?',
+        image: base + '/images/blackburn_2.jpg',
+        link: 'article/65-game-rule'
+      },
+      {
+        headline: 'How a Single Lobbying Firm Wrote Four States\' Water Rights Laws Word for Word',
+        byline: 'By Priya Nandakumar & Josh Elmore',
+        time: '11 hours ago',
+        summary: 'A months-long review of legislative drafts, emails obtained through public records requests, and interviews with seventeen former staffers reveals an influence operation hiding in plain sight.',
+        image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=700&q=80',
+        link: 'article/lobbying-water-rights'
+      }
+    ],
+
+    marketTicker: [
+      { label: 'GARLIC INDEX', value: '4,201.77', change: '+0.38%', up: true },
+      { label: 'BREAD FUTURES', value: '$3.14 / loaf', change: '−1.02%', up: false },
+      { label: 'OLIVE OIL BRENT', value: '$148.22 / bbl', change: '+2.11%', up: true },
+      { label: 'CREDIBILITY BONDS', value: 'JUNK', change: '−∞', up: false },
+      { label: 'CLOVE/USD', value: '0.0042', change: '+0.07%', up: true },
+    ],
+
+    business: [
+      {
+        tag: 'Business',
+        headline: 'Venture Capital Discovers "Peasant Farming" as Next Disruptive Vertical',
+        byline: 'By Carlton Reese',
+        time: '2 hours ago',
+        summary: 'Silicon Valley investors are pouring seed money into startups that promise to "reimagine subsistence agriculture" at a $40 billion valuation.',
+      },
+      {
+        tag: 'Finance',
+        headline: 'Fed Chair Admits He Has Not Checked His Own Bank Account in Three Years',
+        byline: 'By Dana Whitmore',
+        time: '4 hours ago',
+        summary: '"I find it clarifying," he told reporters at the post-meeting press conference, staring into the middle distance.',
+      },
+      {
+        tag: 'Markets',
+        headline: 'Analysts Warn That Everything Is Fine, Which Is Historically a Bad Sign',
+        byline: 'By H. Burke Cavendish',
+        time: '6 hours ago',
+        summary: 'A consensus of seventeen major investment banks released a joint note Monday describing global financial conditions as "totally chill," sending futures sharply lower.',
+      },
+    ],
+
+    secondOpinion: {
+      tag: 'Opinion',
+      headline: 'I Let an Algorithm Plan My Entire Life for Six Months. It Scheduled Me Out of Existence.',
+      byline: 'Randolph T. Marsh',
+      role: 'Staff Correspondent',
+    },
+
+    scienceHealth: [
+      {
+        tag: 'Science',
+        headline: 'New Study Finds Coffee Both Causes and Cures Everything',
+        byline: 'By Dr. Simone Achebe',
+        time: '1 hour ago',
+        image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80'
+      },
+      {
+        tag: 'Health',
+        headline: 'Doctors Recommend Eight Hours of Sleep, Unaware Most People Have Jobs',
+        byline: 'By Margaux Petit',
+        time: '3 hours ago',
+        image: 'https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=400&q=80'
+      },
+      {
+        tag: 'Environment',
+        headline: 'Scientists Achieve Breakthrough in Carbon Capture Using Only Existential Dread',
+        byline: 'By Wei-Lin Sato',
+        time: '5 hours ago',
+        image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=400&q=80'
+      },
+      {
+        tag: 'Space',
+        headline: 'Webb Telescope Photographs Something Astronomers Describe as "Deeply Concerning"',
+        byline: 'By B. Kowalski',
+        time: '8 hours ago',
+        image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&q=80'
+      },
+    ],
   };
 
   let scrolled = false;
@@ -83,7 +174,6 @@
     font-family: 'Source Sans 3', sans-serif;
   }
 
-  /* ── Variables ── */
   :root {
     --cream: #f5f0e8;
     --ink: #1a1612;
@@ -95,7 +185,6 @@
     --col: calc((100% - 64px) / 12);
   }
 
-  /* ── Top bar ── */
   .topbar {
     border-bottom: 1px solid var(--rule);
     background: var(--cream);
@@ -112,7 +201,6 @@
   .topbar-nav a { color: var(--ink-light); text-decoration: none; }
   .topbar-nav a:hover { color: var(--red); }
 
-  /* ── Nameplate ── */
   .nameplate {
     padding: 28px 32px 20px;
     text-align: center;
@@ -134,12 +222,7 @@
     margin-bottom: 4px;
   }
 
-  /* ── SVG Logo Mark ── */
-  .logo-mark {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-  }
+  .logo-mark { width: 60px; height: 60px; flex-shrink: 0; }
 
   .paper-name {
     font-family: 'Playfair Display', serif;
@@ -171,7 +254,6 @@
     font-family: 'Libre Baskerville', serif;
   }
 
-  /* ── Section nav ── */
   .section-nav {
     background: var(--ink);
     display: flex;
@@ -194,7 +276,6 @@
   }
   .section-nav a:hover { background: var(--red); color: #fff; }
 
-  /* ── Main grid ── */
   .wrapper { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
 
   .edition-label {
@@ -217,7 +298,6 @@
     margin: 12px 0 0;
   }
 
-  /* ── Lead layout ── */
   .top-grid {
     display: grid;
     grid-template-columns: 1fr 2px 2fr 2px 1fr;
@@ -290,6 +370,7 @@
     margin-bottom: 12px;
   }
   .article-img.tall { aspect-ratio: 4/3; }
+  .article-img.wide { aspect-ratio: 16/9; }
 
   .read-more {
     font-family: 'Source Sans 3', sans-serif;
@@ -302,7 +383,6 @@
   }
   .read-more:hover { text-decoration: underline; }
 
-  /* ── Briefs strip ── */
   .briefs-strip {
     border-bottom: 1px solid var(--rule);
     padding: 16px 0;
@@ -325,7 +405,6 @@
     margin-top: 4px;
   }
 
-  /* ── Opinion feature ── */
   .opinion-band {
     background: var(--ink);
     color: var(--cream);
@@ -367,12 +446,11 @@
     margin-bottom: 3px;
   }
 
-  /* ── Arts row ── */
   .arts-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
   }
   .arts-item {
     padding: 0 20px;
@@ -389,7 +467,136 @@
     filter: grayscale(15%);
   }
 
-  /* ── Footer ── */
+  /* ── Section heading band ── */
+  .section-heading-band {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 28px 0 20px;
+  }
+  .section-heading-band h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .section-heading-band .rule-line {
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  /* ── In Depth two-column ── */
+  .indepth-grid {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+    gap: 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 28px;
+  }
+  .indepth-item { padding: 0 28px; }
+  .indepth-item:first-child { padding-left: 0; }
+  .indepth-item:last-child { padding-right: 0; }
+
+  .kicker {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--gold);
+    border-left: 2px solid var(--gold);
+    padding-left: 8px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  /* ── Market ticker ── */
+  .market-ticker {
+    background: var(--cream);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 0;
+    display: flex;
+    gap: 0;
+    margin-bottom: 28px;
+    overflow-x: auto;
+  }
+  .ticker-item {
+    flex: 1;
+    min-width: 140px;
+    padding: 0 20px;
+    border-right: 1px solid var(--rule-light);
+    text-align: center;
+  }
+  .ticker-item:last-child { border-right: none; }
+  .ticker-label {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 2px;
+  }
+  .ticker-value {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .ticker-change {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    margin-top: 1px;
+  }
+  .ticker-change.up { color: #2e7d32; }
+  .ticker-change.down { color: var(--red); }
+
+  /* ── Business three-column ── */
+  .business-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 28px;
+  }
+  .business-item {
+    padding: 0 24px;
+    border-right: 1px solid var(--rule);
+  }
+  .business-item:first-child { padding-left: 0; }
+  .business-item:last-child { border-right: none; padding-right: 0; }
+
+  /* ── Science/Health four-column ── */
+  .science-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 32px;
+  }
+  .science-item {
+    padding: 0 18px;
+    border-right: 1px solid var(--rule);
+  }
+  .science-item:first-child { padding-left: 0; }
+  .science-item:last-child { border-right: none; padding-right: 0; }
+  .science-img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 8px;
+    filter: grayscale(20%);
+  }
+
   footer {
     border-top: 2px solid var(--ink);
     padding: 20px 32px 30px;
@@ -426,7 +633,6 @@
     margin-top: 8px;
   }
 
-  /* ── Decorative drop cap ── */
   .drop-cap::first-letter {
     float: left;
     font-family: 'Playfair Display', serif;
@@ -446,6 +652,12 @@
     .opinion-band { grid-template-columns: 1fr; gap: 16px; }
     .opinion-label { writing-mode: initial; transform: none; }
     .section-nav { overflow-x: auto; justify-content: flex-start; }
+    .indepth-grid { grid-template-columns: 1fr; }
+    .indepth-item { padding: 0 0 20px; }
+    .business-grid { grid-template-columns: 1fr; }
+    .business-item { padding: 0 0 20px; border-right: none; border-bottom: 1px solid var(--rule); }
+    .science-grid { grid-template-columns: 1fr 1fr; }
+    .science-item { padding: 0 12px 20px; }
   }
 </style>
 
@@ -464,9 +676,7 @@
 <!-- Nameplate -->
 <header class="nameplate">
   <div class="logo-lockup">
-    <!-- SVG Logo Mark: a stylized compass/sun with initials -->
     <img src="{base}/images/TheGarlicLogo.png" alt="Garlic Logo" style="width:120px;height:120px;margin-top:-30px;margin-bottom:-30px;margin-right:-20px;" class="logo-mark">
-
     <div class="paper-name">The Garlic</div>
   </div>
   <div class="paper-tagline">Bias · No Context · Flawed · Est. 1967</div>
@@ -479,9 +689,9 @@
 
 <!-- Section navigation -->
 <nav class="section-nav">
-    {#each ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections'] as l}
-      <a href="{base}/{l.toLowerCase()}">{l}</a>
-    {/each}
+  {#each ['Home', 'About', 'Subscribe', 'Contact', 'Privacy', 'Terms', 'Corrections'] as l}
+    <a href="{base}/{l.toLowerCase()}">{l}</a>
+  {/each}
 </nav>
 
 <!-- Main content -->
@@ -491,8 +701,6 @@
 
   <!-- Three-column lead -->
   <div class="top-grid">
-
-    <!-- Left column: secondary story -->
     <div class="side-col">
       <div class="section-tag">{articles.secondary[0].tag}</div>
       <img src={articles.secondary[0].image} alt="" class="article-img tall">
@@ -505,7 +713,6 @@
 
     <div class="col-divider"></div>
 
-    <!-- Center: lead story -->
     <div class="lead-col">
       <div class="section-tag">{articles.lead.tag}</div>
       <img src={articles.lead.image} alt="" class="article-img">
@@ -518,7 +725,6 @@
 
     <div class="col-divider"></div>
 
-    <!-- Right column: secondary story + briefs preview -->
     <div class="side-col">
       <div class="section-tag">{articles.secondary[1].tag}</div>
       <img src={articles.secondary[1].image} alt="" class="article-img tall">
@@ -556,7 +762,7 @@
     </div>
   </div>
 
-  <!-- Last row -->
+  <!-- Arts row -->
   <hr class="front-rule" style="border-color: var(--ink); border-width:1px; margin-bottom:20px;">
   <div class="arts-row">
     {#each articles.arts as item}
@@ -568,6 +774,90 @@
       </div>
     {/each}
   </div>
+
+  <!-- ── SPORTS ── -->
+  <div class="section-heading-band">
+    <h2>Sports — Basketball</h2>
+    <div class="rule-line"></div>
+  </div>
+
+  <div class="indepth-grid">
+    {#each articles.indepth as item}
+      <div class="indepth-item">
+        <img src={item.image} alt="" class="article-img wide">
+        <h2 class="secondary-head" style="font-size: clamp(20px, 2.2vw, 28px); margin-bottom: 12px;">{item.headline}</h2>
+        <div class="byline">{item.byline}<span>·</span>{item.time}</div>
+        <p class="body-text">{item.summary}</p>
+        <br>
+        <a href="{base}/{item.link}" class="read-more">Read Full Story →</a>
+      </div>
+      {#if item !== articles.indepth[articles.indepth.length - 1]}
+        <div class="col-divider"></div>
+      {/if}
+    {/each}
+  </div>
+
+  <!-- ── MARKETS TICKER ── -->
+  <div class="market-ticker">
+    {#each articles.marketTicker as t}
+      <div class="ticker-item">
+        <div class="ticker-label">{t.label}</div>
+        <div class="ticker-value">{t.value}</div>
+        <div class="ticker-change {t.up ? 'up' : 'down'}">{t.change}</div>
+      </div>
+    {/each}
+  </div>
+
+  <!-- ── BUSINESS ── -->
+  <div class="section-heading-band">
+    <h2>Business & Finance</h2>
+    <div class="rule-line"></div>
+  </div>
+
+  <div class="business-grid">
+    {#each articles.business as item}
+      <div class="business-item">
+        <div class="section-tag">{item.tag}</div>
+        <h2 class="secondary-head" style="font-size:19px;">{item.headline}</h2>
+        <div class="byline">{item.byline}<span>·</span>{item.time}</div>
+        <p class="body-text">{item.summary}</p>
+        <br>
+        <a href="#" class="read-more">Read →</a>
+      </div>
+    {/each}
+  </div>
+
+  <!-- ── SECOND OPINION BAND ── -->
+  <div class="opinion-band" style="margin-bottom: 28px;">
+    <div class="opinion-label">Opinion</div>
+    <div>
+      <div class="section-tag" style="color:#c8956c;">{articles.secondOpinion.tag}</div>
+      <div class="opinion-head">"{articles.secondOpinion.headline}"</div>
+    </div>
+    <div class="opinion-author">
+      <strong>{articles.secondOpinion.byline}</strong>
+      {articles.secondOpinion.role}
+    </div>
+  </div>
+
+  <!-- ── SCIENCE & HEALTH ── -->
+  <div class="section-heading-band">
+    <h2>Science, Health & Environment</h2>
+    <div class="rule-line"></div>
+  </div>
+
+  <div class="science-grid">
+    {#each articles.scienceHealth as item}
+      <div class="science-item">
+        <img src={item.image} alt="" class="science-img">
+        <div class="section-tag">{item.tag}</div>
+        <h3 class="brief-head" style="font-size:15px; margin-bottom:8px;">{item.headline}</h3>
+        <div class="byline">{item.byline}<span>·</span>{item.time}</div>
+        <a href="#" class="read-more">Read →</a>
+      </div>
+    {/each}
+  </div>
+
 </main>
 
 <!-- Footer -->

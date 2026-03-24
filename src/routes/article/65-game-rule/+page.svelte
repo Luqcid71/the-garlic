@@ -9,25 +9,17 @@
   const footerLinks = ['Home','About','Subscribe','Contact','Privacy','Terms','Corrections'];
 
   const article = {
-    section: 'World Affairs',
-    headline: 'Global Summit Reaches Historic Climate Agreement After Three Days of Negotiations',
-    subhead: 'World leaders emerge from Geneva with a binding accord and a $500 billion fund, though delegates remain divided on what, precisely, they agreed to.',
-    byline: 'Margaret Holloway',
-    role: 'Senior Correspondent, Geneva',
-    date: 'March 13, 2026',
-    readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=80',
-    imageCaption: 'Delegates gather outside the Palais des Nations following the conclusion of talks. Several appeared relieved. One did not.',
-    imageCredit: 'Photo: Reuters',
-    body: `World leaders from 47 nations convened in Geneva this week, emerging with a landmark accord that pledges binding emissions reductions and establishes a $500 billion fund for climate adaptation in developing nations. The agreement, reached in the early hours of Thursday morning after a third consecutive night of negotiations, was described by participants as "historic," "significant," and, in one case, "better than nothing, frankly."
-
-The accord commits signatories to reducing carbon emissions by 45 percent relative to 2005 levels by the year 2035. Independent analysts have described this target as ambitious, achievable, and, depending on which analyst you consult, either both or neither of those things. A separate provision establishes an international oversight body, the structure and authority of which will be determined at a future summit, date to be confirmed.
-
-The $500 billion adaptation fund, intended to assist lower-income nations in managing the effects of climate change already underway, was the most contentious element of the negotiations. Wealthier nations agreed to the figure on the condition that disbursement mechanisms remain subject to annual review. Poorer nations agreed to this condition on the understanding that they had little choice. Several delegates were observed eating pastries during this portion of the talks, which observers interpreted variously as a sign of relaxed confidence or acute stress.
-
-Not all nations signed without reservation. Three countries attached formal addenda to their accords, the contents of which have not been released. A fourth country submitted what a spokesperson described as "a note of general enthusiasm," which legal experts say carries no binding weight but is, they allowed, a nice gesture.
-
-The agreement now passes to individual national legislatures for ratification, a process expected to take between six months and several years, depending on which country and how recently there has been an election. The next full summit is scheduled for 2028, in a city that has not yet been selected but will almost certainly have good coffee.`
+    section: 'Sports',
+    headline: 'NBA 65-Game Rule Rebranded as “Participation Trophy Requirement”',
+    subhead: 'NBA awards now prioritize showing up over playing well, as a 65-game minimum turns MVP races into attendance contests and sidelines even the league’s best performers.',
+    byline: 'Ryan Blackburn',
+    role: 'Editor, The Garlic',
+    date: 'March 23, 2026',
+    readTime: '5 min read',
+    image: '/images/blackburn_1.jpg',
+    imageCaption: 'Stars in Danger of Missing',
+    imageCredit: 'Image: Bleacher Report ',
+    body: `NBA fans were surprised this week to learn that individual awards are no longer based on performance, but rather on meeting a minimum attendance requirement, according to a new report released by voters who have recently discovered how counting works. The report explains that players have been approaching awards incorrectly by focusing on how well they play instead of how often they show up. “That’s where the disconnect is,” the report states. “Being the best player isn’t enough anymore. You also have to be available for a specific number of nights, regardless of what happens during those nights.” Several players have already felt the effects of the rule. “I thought averaging huge numbers would matter,” said one star. “Turns out missing a few games means I’m basically invisible. It’s actually impressive how quickly you can go from MVP candidate to ‘not eligible.’” Voters say the system helps simplify decisions. “It really clears things up,” one voter explained. “Instead of debating who played better, we can just remove anyone who didn’t hit 65 games. It saves a lot of time.” Experts suggest players adjust by prioritizing appearances over everything else, even if it means playing through minor injuries or checking into games briefly just to keep their count up. Some have even floated the idea of players entering games for a few minutes, recording their participation, and then returning to the bench satisfied. The league has defended the rule as a way to reward consistency. Critics, however, note that it has created situations where clearly dominant players are left out of award conversations entirely, replaced by those who simply stayed on the court longer. At press time, one player was reportedly having the best season of his career while carefully watching from the bench, fully aware it no longer counted.`
   };
 
   const recommended = [
@@ -238,7 +230,6 @@ The agreement now passes to individual national legislatures for ratification, a
   .article-image-wrap { margin-bottom: 32px; }
   .article-image {
     width: 100%;
-    aspect-ratio: 16/9;
     object-fit: cover;
     display: block;
     filter: grayscale(8%);
@@ -446,7 +437,7 @@ The agreement now passes to individual national legislatures for ratification, a
 
   <!-- Image -->
   <div class="article-image-wrap">
-    <img src={article.image} alt={article.imageCaption} class="article-image">
+    <img src={base}{article.image} alt={article.imageCaption} class="article-image">
     <div class="image-caption-row">
       <span class="image-caption">{article.imageCaption}</span>
       <span class="image-credit">{article.imageCredit}</span>
@@ -468,7 +459,7 @@ The agreement now passes to individual national legislatures for ratification, a
         <div class="rec-item">
           <img src={rec.image} alt={rec.headline} class="rec-image">
           <div class="rec-section">{rec.section}</div>
-          <a href="{base}/{rec.url}" class="rec-headline">{rec.headline}</a>
+          <a href={base}/{rec.url} class="rec-headline">{rec.headline}</a>
           <div class="rec-meta">{rec.byline} · {rec.time}</div>
         </div>
       {/each}
